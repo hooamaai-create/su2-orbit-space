@@ -2420,3 +2420,18 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   but shares the operator, so it does not answer the circularity attack.
 - Referee scorecard update: demand 15 (dense blind scan) is now MET; the circularity
   control remains open pending a properly normalized non-spectral observable.
+
+## 2026-08-18 19:58 — RUN 12 pre-registered and launched: the mass-scale question
+- record/RUN12_SPEC.md frozen before data. The "why mass" iteration: curvature is
+  scale-free, so if horizon dynamics generates mass it must show in the propagator.
+- Q1: D(p) on shells k2=1..4, continuous-scan model comparison M0 (scale-free) vs
+  M1 (massive) vs M2 (Gribov), dchi2>6 rule; scale converted to sqrt(sigma) units
+  via measured a*sqrt(sigma) = 0.561/0.434/0.336; must agree across beta within
+  3 sigma to count as physical (F2).
+- Q2: per-shell gate — P2 predicts |r| falls with k2 in ON ensembles (IR-specific).
+- Q3: Leg-2 redo, attempt 2 of 2: f3n = f3/f3(Haar at same L). P4: min ON > max
+  OFF. If F4 fires, the coherence gate is permanently spectral in this programme.
+- Six ensembles (2 OFF, 4 ON), blind P1 predictions from the run-11-validated
+  frozen curve logged in-file before measurement. Pushed to Kaggle
+  (orbitspace-run12-mass); outreach draft file deleted at user request (never
+  entered the repo).
