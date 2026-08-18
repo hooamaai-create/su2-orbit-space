@@ -25,9 +25,16 @@ prediction.
 4. **A coherence-gated correlation** — the per-configuration correlation between
    horizon proximity `λ_min(M)` and infrared gluon power `D(p_min)` depends on the
    carrier's coherence alone: absent below `f_IR ≈ 0.5`, locked at `r = −0.51…−0.53`
-   above `≈ 0.6`. Verified by predicting, in advance, that the correlation — strong at
-   `(β, L) = (2.4, 10)` — would **vanish at `(2.4, 16)`**: `f_IR` predicted 0.444,
-   measured 0.443(16); `r` measured +0.02.
+   above `≈ 0.6`. Verified twice over: run 10 predicted, in advance, that the
+   correlation — strong at `(β, L) = (2.4, 10)` — would **vanish at `(2.4, 16)`**
+   (`f_IR` predicted 0.444, measured 0.443(16); `r` measured +0.02); run 11 then
+   tested the **curve's shape blind** — twelve ensembles spanning `f_IR = 0.31–0.91`
+   (including β = 2.5, never previously measured), all twelve predictions logged
+   before any correlation was computed — and the zero-parameter curve fit at
+   **χ²/dof = 1.00**. One pre-registered control failed honestly: our non-spectral
+   coherence observable proved volume-dominated, so whether `f_IR` is fundamental or
+   a proxy remains open (`record/RUN11_SPEC.md`), and we claim a coherence-gated
+   correlation, not a law.
 5. **Horizon dynamics** — the ensemble is driven to the horizon 4.8σ faster than
    kinematics (`λ_min ~ L^−3.08(25)` vs free `L^−1.90`, Gribov-copy systematic bounded at
    0.16σ), with a braking window bracketed near `ℓ* ≈ 7±2` in `1/√σ` units at β=2.2.
