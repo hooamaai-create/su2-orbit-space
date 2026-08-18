@@ -89,7 +89,7 @@ the Yang–Mills mass gap at infinite volume.**
 
 ## Credit
 
-Research by Nitin (independent), conducted in close collaboration with Claude
+Research by Nitin Pandey (independent), conducted in close collaboration with Claude
 (Anthropic), which performed analysis, code, and drafting under the author's direction.
 
 License: MIT (code); CC-BY-4.0 (text and figures).
