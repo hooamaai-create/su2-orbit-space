@@ -32,6 +32,18 @@ prediction.
 
 ![the coherence law](viz/figs/law.png)
 
+## Live instruments (no install)
+
+- **[The Horizon Weight Machine](https://hooamaai-create.github.io/su2-orbit-space/viz/tool.html)** —
+  three.js, driven by the measured grids: orbit the space, slide (beta, L), watch the vacuum
+  press the wall, the law switch, and the weight chain light up
+- **[The law, drawn from data](https://hooamaai-create.github.io/su2-orbit-space/viz/law.html)** —
+  every r measurement vs coherence, predictions ringed
+- **[The mechanism walkthrough](https://hooamaai-create.github.io/su2-orbit-space/viz/index.html)** —
+  the full story in four interactive 2D scenes
+
+![the horizon weight machine](viz/figs/tool.png)
+
 ## Reproduce it yourself — free GPU, one afternoon
 
 The decisive experiment (run 10, the out-of-sample prediction) is one notebook:
