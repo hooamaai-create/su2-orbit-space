@@ -2395,3 +2395,28 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   suspended until run 11 passes all three legs.
 - Both repos and publication paused: GitHub repos made private (Pages down);
   Zenodo withdrawal is user-side via support request.
+
+## 2026-08-18 18:39 — RUN 11 VERDICT: Leg 1 PASS, Leg 3 PASS, Leg 2 FAIL — "law" not earned
+- Both parts complete (Kaggle P100, ~1.5 h each; gates passed). 12 blind ensembles,
+  f1 spanning 0.305-0.912, six in the transition band. results11A/B.json in results/.
+- LEG 1 (blind scan) PASS, emphatically: the twelve pre-registered (f_pred, r_pred)
+  predictions — frozen activation curve, ZERO free parameters — fit the measured
+  partial r at chi2/dof = 1.00 (11.94/12). Worst point M2 (2.5, L=12) at +2.28 sigma;
+  one such point in twelve is expected. Evaluating the curve at measured f1 instead:
+  chi2/dof = 1.17. The activation-curve SHAPE is now blind-validated, not inferred.
+- LEG 3 (conditional independence) PASS as registered: no matched-f1 pair differs by
+  >3 sigma. Largest tension T1(2.3,8) vs T5(2.4,12): 2.05 sigma. Watch item, not a kill.
+- LEG 2 (independent coherence variable) FAIL as registered: f3 (non-spectral gluon
+  IR fraction, definition frozen in RUN11_SPEC.md) does NOT gate r — it is volume-
+  dominated (range 0.005-0.043), and at fixed f3 = 0.0161 three ensembles show
+  r = -0.06 / -0.22 / -0.49 (OFF and ON at identical f3). F2 TRIGGERED. Per the
+  pre-registered language, the claim REMAINS "coherence-gated correlation"; "law"
+  and "order parameter" are NOT earned. Post-hoc diagnosis (recorded, not acted on):
+  f3 as defined is a poor instrument — its scale is set by V, not by coherence; a
+  volume-normalized non-spectral observable is FUTURE work requiring a NEW
+  pre-registration. We do not swap observables after seeing data.
+- f2 (psi_2, psi_3 coherence, same operator) tracks f1 (mean |f2-f1| = 0.036):
+  the gate is a property of the low spectral neighbourhood, not of psi_min alone —
+  but shares the operator, so it does not answer the circularity attack.
+- Referee scorecard update: demand 15 (dense blind scan) is now MET; the circularity
+  control remains open pending a properly normalized non-spectral observable.
