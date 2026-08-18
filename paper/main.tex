@@ -5,7 +5,7 @@
 
 \title{Measured geometry and horizon dynamics of the SU(2) gauge orbit space:\\
 scale-free curvature, a localization--coherence crossover,\\
-and a coherence-governed coupling law}
+and a coherence-gated horizon--gluon correlation}
 
 \author{Nitin Pandey\thanks{Independent researcher; hoo.am.aai@gmail.com. This research was conducted in close collaboration with Claude (Anthropic), which performed analysis, code, and drafting under the author's direction; per arXiv authorship policy an AI system is credited here rather than listed as an author, since authorship implies accountability only a human can hold.}}
 \date{August 2026 --- preliminary; single lattice spacing per coupling, SU(2), $L\le 18$}
@@ -14,7 +14,7 @@ and a coherence-governed coupling law}
 \maketitle
 
 \begin{abstract}
-We report the first direct Monte Carlo measurements of the Riemannian geometry of the
+We report, to our knowledge, the first numerical measurements of orbit-space curvature observables on sampled lattice configurations of the
 SU(2) gauge orbit space $\mathcal{A}/\mathcal{G}$ on lattice ensembles, together with a
 study of the dynamics of the approach to the Gribov horizon. Our results are fourfold.
 (i)~The curvature sector is scale-free: with an empirically measured scale-setter and a
@@ -35,7 +35,7 @@ lowest-momentum weight $f_{\mathrm{IR}}:0.36\to0.95$), which persists at fixed p
 volume and is therefore not a finite-size effect; the crossover boundary is a sloped curve
 in the (coupling, box-size) plane. (iv)~The per-configuration correlation between horizon
 proximity and infrared gluon power --- an observable we could not locate in the literature
---- obeys a single-variable law: it is absent for $f_{\mathrm{IR}}\lesssim0.5$ and locked
+--- exhibits threshold behaviour consistent with single-variable control by the mode's coherence: it is absent for $f_{\mathrm{IR}}\lesssim0.5$ and locked
 at $r=-0.51..-0.53$ above $f_{\mathrm{IR}}\gtrsim0.6$, verified by a pre-registered
 out-of-sample prediction in which the correlation, strong at $(\beta,L)=(2.4,10)$, was
 predicted and then measured to vanish at $(2.4,16)$ ($f_{\mathrm{IR}}$ predicted $0.444$,
@@ -101,11 +101,12 @@ ensembles with the empirical divisor,
 \[
 n[K\!\cdot\!V] = -0.0102(13),\qquad n[\mathrm{Ric}_{\min}] = +0.0239(70),
 \]
-against the $n=1$ required of a mass-generating quantity. Structurally, from the Gram
+against the $n=1$ required of a mass-generating quantity. Powers cannot rescue a candidate: dimensions compose as $n[K^{p}]=p\,n[K]$, so any power of these observables reaching $n=1$ would require $|p|\sim 10^{2}$, while the positive control confirms the pipeline resolves genuine $n\approx2$ quantities. Structurally, from the Gram
 matrix of $(\partial,D)$ one obtains $\Delta \succeq M^{\dagger}L^{-1}M$: the metric
 Laplacian $\Delta=D^{\dagger}D$ remains strictly positive where the FP operator $M$
-crosses zero, so no quantity built from $\Delta$ and the horizontal projector alone can
-detect the horizon. On $24$ Landau-fixed configurations this blindness is confirmed
+crosses zero. The inequality rules out metric degeneration as a mechanism by which the
+horizon could enter curvature; whether curvature nevertheless correlates with horizon
+proximity is then an empirical question, answered below in the negative. On $24$ Landau-fixed configurations this blindness is confirmed
 directly: $\lambda_{\min}(M)$ varies by $167\%$ across the ensemble while
 $\mathrm{Ric}_{\min}$ varies by $1.8\%$; $r(\lambda_{\min},\mathrm{Ric}_{\min})=+0.009$.
 A configuration $12\times$ nearer the horizon than average has median curvature.
@@ -185,10 +186,20 @@ The final row is the paper's sharpest result. From the $f_{\mathrm{IR}}(\beta,L)
 predicted, in advance, that at $(\beta,L)=(2.4,16)$ the coherence would sit at $0.444$,
 below the activation threshold, and that the correlation --- strong at $L=10$ at the
 \emph{same coupling} --- would therefore be absent. Both predictions were confirmed
-($f_{\mathrm{IR}}$ to $0.3\%$; $r=+0.02$, $0.1\sigma$ from zero). The data collapse onto
-a single activation curve in $f_{\mathrm{IR}}$: off below $\approx0.5$, locked at
-$r=-0.51..-0.53$ above $\approx0.6$, irrespective of whether coherence is set by the
-coupling or destroyed by the volume. The sign of the correlation is anticipated at
+($f_{\mathrm{IR}}$ to $0.3\%$; $r=+0.02$, $0.1\sigma$ from zero). The measured points are
+consistent with a single activation curve in $f_{\mathrm{IR}}$: off below $\approx0.5$,
+saturating near $r=-0.51..-0.53$ above $\approx0.6$, irrespective of whether coherence is
+set by the coupling or destroyed by the volume. We state the claim at its defensible
+strength: \emph{the infrared coherence of the lowest FP eigenmode predicts whether the
+horizon--gluon correlation is active in these ensembles}. Establishing $r=F(f_{\mathrm{IR}})$
+as a universal law would additionally require a dense, blinded scan of the transition
+region, an independent (non-spectral) coherence observable --- since $f_{\mathrm{IR}}$ is
+constructed from the same eigenmode whose eigenvalue enters the correlation --- and a
+conditional-independence test $r\perp(\beta,L)\,|\,f_{\mathrm{IR}}$; we specify this
+experiment in the repository and have not yet performed it. Provenance note: of the
+table's correlation entries, the $n{=}144$ discovery point predates the deflated-solver
+fix; the known bias direction makes it a conservative floor on $|r|$, and all other
+entries are post-fix. The sign of the correlation is anticipated at
 Gribov-copy level by Ref.~\cite{SternbeckMP12}; the fixed-gauge cross-configuration
 observable, and its single-variable law, appear to be new. The crossover of
 Sec.~\ref{sec:cross} is the $f_{\mathrm{IR}}\approx0.5$ level set of this law.

@@ -22,7 +22,7 @@ prediction.
 3. **The lowest Faddeev–Popov mode has a localization→coherence crossover**
    (`IPR·V: 8.7 → 1.2`, `f_IR: 0.36 → 0.95`), coupling-driven (it persists at fixed
    physical volume); the boundary is a sloped curve in the (coupling, box-size) plane.
-4. **A coherence-governed coupling law** — the per-configuration correlation between
+4. **A coherence-gated correlation** — the per-configuration correlation between
    horizon proximity `λ_min(M)` and infrared gluon power `D(p_min)` depends on the
    carrier's coherence alone: absent below `f_IR ≈ 0.5`, locked at `r = −0.51…−0.53`
    above `≈ 0.6`. Verified by predicting, in advance, that the correlation — strong at
@@ -46,7 +46,11 @@ prediction.
 
 ![the horizon weight machine](viz/figs/tool.png)
 
-## Reproduce it yourself — free GPU, one afternoon
+## Reproduce the decisive prediction — free GPU, one afternoon
+
+(This reproduces run 10 — the out-of-sample prediction — on our engine. Independent
+reproduction of the full chain (sampler → gauge fixing → spectra → correlation) from
+scratch is the stronger test, and `core/` is organized to make that feasible.)
 
 The decisive experiment (run 10, the out-of-sample prediction) is one notebook:
 

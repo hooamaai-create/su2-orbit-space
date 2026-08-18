@@ -2374,3 +2374,24 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   couples to the infrared gluon field — and it subsumes the crossover finding: the sloped
   (beta, ell) boundary IS the f_IR = 0.5 level set. One object now explains runs 3-10's
   entire IR phenomenology.
+
+## 2026-08-18 17:05 — Hostile external review received; concessions applied
+- Review verdict: numerics strong, wording too strong. "Law/order parameter" not
+  earned on two out-of-sample points; f_IR is built from the same eigenmode whose
+  eigenvalue enters r (structural non-independence); the metric inequality rules
+  out one mechanism, it does not prove blindness — the r=0.009 measurement does
+  the work; "first direct measurements of the Riemannian geometry" too broad.
+- Conceded and edited in place: title and claims now "coherence-gated
+  horizon–gluon correlation"; inequality wording weakened per review; novelty
+  claim narrowed to "these observables, to our knowledge"; provenance note added
+  (the n=144 discovery point predates the deflated-solver fix; bias direction
+  makes it a conservative floor on |r|).
+- Rebutted (retained, now stated explicitly in paper): powers cannot rescue a
+  mass candidate (n[K^p] = p·n[K], needs |p|~100); massive-screening grid
+  brackets a monotone function that never approaches target at physical m.
+- Registered record/RUN11_SPEC.md before any data: dense blinded f_IR scan,
+  non-spectral coherence observable f3, conditional independence r⊥(β,L)|f_IR,
+  regression a(f_IR) with units. Falsifiers F1–F3 fixed. "Law" language is
+  suspended until run 11 passes all three legs.
+- Both repos and publication paused: GitHub repos made private (Pages down);
+  Zenodo withdrawal is user-side via support request.
