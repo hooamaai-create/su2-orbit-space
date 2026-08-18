@@ -76,3 +76,25 @@ the strongest sentence this programme would then be entitled to.
 P3 fails via F1 -> report "no propagator mass scale at these volumes" with the
 same prominence a positive result would have received.
 Any mixed outcome -> report per-falsifier, no synthesis beyond the data.
+
+## Q4 — ADDENDUM, registered 2026-08-18 21:09, while run 12 was still executing
+## and before any result had been retrieved or seen (kernel status: RUNNING)
+
+Hypothesis (proposed by N. Pandey): mass is a function of the distance from the
+horizon and of the separation between excitations — i.e. an effective mass
+function m^2(p^2, lambda) that grows as lambda -> 0 and dies as p grows.
+The separation axis is already Q2/P2. The horizon axis gets a JOINT test:
+
+Within each gate-ON ensemble, median-split the configurations by lambda_min into
+NEAR-horizon and FAR halves. Fit M1 (and M2) to each half's mean D(p) over the
+four shells, same continuous-scan fitter.
+
+P5: scale(NEAR) > scale(FAR) in every ON ensemble — mass increases toward the
+    horizon.
+F5: scale(NEAR) <= scale(FAR) in half or more of the ON ensembles, or the split
+    is statistically empty (intervals fully overlapping everywhere) -> the
+    per-configuration form of the hypothesis is refuted at these volumes; only
+    the ensemble-level statements of Q1 survive.
+
+Caveat registered up front: a median split halves n (12-32 per half); this is a
+sign-and-consistency test, not a precision measurement. Direction only.

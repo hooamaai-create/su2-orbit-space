@@ -2435,3 +2435,11 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   frozen curve logged in-file before measurement. Pushed to Kaggle
   (orbitspace-run12-mass); outreach draft file deleted at user request (never
   entered the repo).
+
+## 2026-08-18 21:09 — Q4/P5 registered mid-flight (data unseen)
+- User hypothesis: mass = F(distance-from-horizon, separation) = m^2(p^2, lambda).
+  Mapped: horizon distance = lambda_min, separation = 1/p. Structurally the
+  Gribov-Zwanziger shape (M2) + momentum-dependent mass function.
+- Registered as RUN12_SPEC Q4 (P5/F5, lambda-median-split mass fits within ON
+  ensembles) while the kernel was still RUNNING and no result had been retrieved.
+  Kaggle status checked and recorded at registration time.
