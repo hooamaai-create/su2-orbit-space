@@ -1,0 +1,29 @@
+{
+  "title": "Measured geometry and horizon dynamics of the SU(2) gauge orbit space: scale-free curvature, a localization-coherence crossover, and a coherence-governed coupling law",
+  "description": "First direct Monte Carlo measurements of the Riemannian geometry of the SU(2) gauge orbit space on lattice ensembles, and of the dynamics of the approach to the Gribov horizon. Includes: scale-free curvature bounds closing Singer's curvature route with a mechanism; two Haar-disorder constants; a coupling-driven localization-coherence crossover of the lowest Faddeev-Popov mode (controlled at fixed physical volume); and a per-configuration coupling law between horizon proximity and infrared gluon power, governed by carrier coherence alone and verified by a pre-registered out-of-sample prediction. Contains the manuscript, all validated instruments and GPU notebooks (reproducible on free Kaggle GPUs), raw results, the append-only research ledger (every claim's falsifier fixed before its data; 13 refuted conjectures documented), and interactive visualizations. Research by Hoo Am Aai in close collaboration with Claude (Anthropic). No claim herein bears on the existence of the Yang-Mills mass gap at infinite volume.",
+  "creators": [
+    {
+      "name": "Aai, Hoo Am"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Claude (Anthropic AI system)",
+      "type": "Other"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "lattice gauge theory",
+    "SU(2) Yang-Mills",
+    "Gribov horizon",
+    "gauge orbit space",
+    "Faddeev-Popov operator",
+    "Anderson localization",
+    "gluon propagator",
+    "reproducible research",
+    "pre-registration"
+  ]
+}
