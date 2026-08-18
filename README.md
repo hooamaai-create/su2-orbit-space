@@ -1,5 +1,7 @@
 # Measured geometry and horizon dynamics of the SU(2) gauge orbit space
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21993867.svg)](https://doi.org/10.5281/zenodo.21993867)
+
 First direct Monte Carlo measurements of the Riemannian geometry of the SU(2) gauge orbit
 space on lattice ensembles, and of the dynamics of the approach to the Gribov horizon —
 including a per-configuration coupling law verified by a pre-registered out-of-sample
