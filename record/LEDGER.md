@@ -2461,7 +2461,7 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   scientific content, number, date, or verdict was altered. Earlier archived
   releases retain the pre-redaction text; this entry discloses the change.
 
-## 2026-08-20 17:08 — CORRECTION to this record's plateau claim (from Part II run 17)
+## 2026-08-20 17:03 — CORRECTION to this record's plateau claim (from Part II run 17)
 - Part II's run 17 produced the first blind failure of the frozen activation
   curve: (2.6, L=10, n=256) predicted -0.519, measured -0.289 (+4.41 sigma).
   Pooling every blind point by coherence band shows the correlation peaks near
