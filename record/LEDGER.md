@@ -2443,3 +2443,14 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
 - Registered as RUN12_SPEC Q4 (P5/F5, lambda-median-split mass fits within ON
   ensembles) while the kernel was still RUNNING and no result had been retrieved.
   Kaggle status checked and recorded at registration time.
+
+## 2026-08-20 13:05 — Part II published as its own record
+- Runs 12-19 (the mass/boundary arc, five reversals, two standing laws) released
+  as github.com/hooamaai-create/su2-orbit-space-ii, v1.0.0. Specs RUN13-RUN19
+  moved to their canonical home there (RUN12_SPEC remains here as committed
+  history). Audit before release: numbers regenerated from raw JSONs; a
+  mixed-methods error in the lambda-constancy summary was caught by the audit
+  and is disclosed in Part II with equal prominence; novelty claims scoped to
+  the blind per-configuration laws; RGZ literature (arXiv:1111.2327, 1002.2374)
+  cited; gauge-dependence stated. Zenodo archiving of Part II pending the
+  owner's GitHub-integration toggle.

@@ -80,7 +80,7 @@ Any mixed outcome -> report per-falsifier, no synthesis beyond the data.
 ## Q4 — ADDENDUM, registered 2026-08-18 21:09, while run 12 was still executing
 ## and before any result had been retrieved or seen (kernel status: RUNNING)
 
-Hypothesis (proposed by N. Pandey): mass is a function of the distance from the
+Hypothesis (H-I, proposed during review of run-11 results): mass is a function of the distance from the
 horizon and of the separation between excitations — i.e. an effective mass
 function m^2(p^2, lambda) that grows as lambda -> 0 and dies as p grows.
 The separation axis is already Q2/P2. The horizon axis gets a JOINT test:

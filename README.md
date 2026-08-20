@@ -7,6 +7,9 @@ space on lattice ensembles, and of the dynamics of the approach to the Gribov ho
 including a per-configuration coupling law verified by a pre-registered out-of-sample
 prediction.
 
+**Part II** (runs 12–19: the boundary half — horizon dynamics, blind per-configuration laws, the refined-GZ scale and its unresolved continuum status):
+[github.com/hooamaai-create/su2-orbit-space-ii](https://github.com/hooamaai-create/su2-orbit-space-ii)
+
 **Paper:** [`paper/main.tex`](paper/main.tex) · **Reading guide to the record:**
 [`record/GUIDE.md`](record/GUIDE.md)
 
