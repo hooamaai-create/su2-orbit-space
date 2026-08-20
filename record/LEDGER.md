@@ -2460,3 +2460,17 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   state during the review response, and a deleted internal draft). No
   scientific content, number, date, or verdict was altered. Earlier archived
   releases retain the pre-redaction text; this entry discloses the change.
+
+## 2026-08-20 17:08 — CORRECTION to this record's plateau claim (from Part II run 17)
+- Part II's run 17 produced the first blind failure of the frozen activation
+  curve: (2.6, L=10, n=256) predicted -0.519, measured -0.289 (+4.41 sigma).
+  Pooling every blind point by coherence band shows the correlation peaks near
+  f_IR ~ 0.65 (|r| ~ 0.49) and declines to |r| ~ 0.35 above f_IR ~ 0.85.
+- The statement in this record that the correlation is "locked at -0.51..-0.53"
+  above f_IR ~ 0.6 is therefore RETRACTED for f_IR > 0.85 and corrected in the
+  README with a pointer to the Part II ledger. The coherence gate, the run-10
+  out-of-sample prediction, and the run-11 twelve-point blind scan are
+  unaffected — all lie at or below f_IR = 0.90 with the failure confined to the
+  deep-coherence end, and the 0.60-0.75 band still fits at 0.4 sigma.
+- No replacement curve is fitted here; a peaked form must be frozen and
+  blind-tested before entering either record (Part II RUN21_SPEC).

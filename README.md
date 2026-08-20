@@ -27,8 +27,18 @@ verified by pre-registered out-of-sample predictions.
    physical volume); the boundary is a sloped curve in the (coupling, box-size) plane.
 4. **A coherence-gated correlation** — the per-configuration correlation between
    horizon proximity `λ_min(M)` and infrared gluon power `D(p_min)` depends on the
-   carrier's coherence alone: absent below `f_IR ≈ 0.5`, locked at `r = −0.51…−0.53`
-   above `≈ 0.6`. Verified twice over: run 10 predicted, in advance, that the
+   carrier's coherence: absent below `f_IR ≈ 0.5`, strong (`r ≈ −0.49`) near
+   `f_IR ≈ 0.65`.
+   > **Correction (2026-08-20, from Part II run 17):** this record originally
+   > stated the correlation is *locked at* `−0.51…−0.53` above `f_IR ≈ 0.6`.
+   > That is wrong at deep coherence. A blind pre-registered prediction failed
+   > by +4.41σ at `(β, L) = (2.6, 10)` with `n = 256`, and pooling all blind
+   > points shows the correlation **peaks near `f_IR ≈ 0.65` and declines to
+   > `|r| ≈ 0.35` for `f_IR > 0.85`** (6 points, 4.4σ). The gate itself and
+   > the out-of-sample predictions below are unaffected; only the plateau
+   > claim is retracted. See
+   > [Part II](https://github.com/hooamaai-create/su2-orbit-space-ii) ledger,
+   > entry 2026-08-20. Verified twice over: run 10 predicted, in advance, that the
    correlation — strong at `(β, L) = (2.4, 10)` — would **vanish at `(2.4, 16)`**
    (`f_IR` predicted 0.444, measured 0.443(16); `r` measured +0.02); run 11 then
    tested the **curve's shape blind** — twelve ensembles spanning `f_IR = 0.31–0.91`
