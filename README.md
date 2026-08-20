@@ -2,10 +2,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21993866.svg)](https://doi.org/10.5281/zenodo.21993866)
 
-First direct Monte Carlo measurements of the Riemannian geometry of the SU(2) gauge orbit
-space on lattice ensembles, and of the dynamics of the approach to the Gribov horizon —
-including a per-configuration coupling law verified by a pre-registered out-of-sample
-prediction.
+Numerical measurements — to our knowledge the first — of orbit-space curvature
+observables on sampled SU(2) lattice ensembles, and of the dynamics of the approach
+to the Gribov horizon, including a coherence-gated per-configuration correlation
+verified by pre-registered out-of-sample predictions.
 
 **Part II** (runs 12–19: the boundary half — horizon dynamics, blind per-configuration laws, the refined-GZ scale and its unresolved continuum status):
 [github.com/hooamaai-create/su2-orbit-space-ii](https://github.com/hooamaai-create/su2-orbit-space-ii) · [doi:10.5281/zenodo.22025317](https://doi.org/10.5281/zenodo.22025317)
