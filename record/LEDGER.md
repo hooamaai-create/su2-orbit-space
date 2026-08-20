@@ -469,7 +469,7 @@
   IR content lives ONLY in C's spectral spread. Evidence on C's character: under smearing
   (λ_min(Δ) collapsing 41×) the ratio drifts 15%, so C IS the IR-sensitive piece — as expected
   since C ~ G² and soft modes enter quadratically. But the net effect on Ric_min is only 11%.
-- **CLAIM STRENGTH (adopting the user's correction, which is right):** do NOT say "no IR scale
+- **CLAIM STRENGTH (adopting the author's correction, which is right):** do NOT say "no IR scale
   in 3+1D is proven". Say: *Ric_min shows no sensitivity to a 41× change in λ_min(Δ), and its
   scale is set by a local coincident-point propagator; a simple IR interpretation of Ric_min is
   therefore unlikely.* Box 1b has now added: *and the only place IR content could still hide is
@@ -1249,7 +1249,7 @@
 
 ## 2026-08-12 12:51 — K*V CONSTANT TEST: derivation validated, two candidate explanations killed
 
-- CONTEXT. I proposed to the user that K_med*V ~ 1/(4pi) = 0.0795775, quoting "0.0793 and
+- CONTEXT. It was proposed to the author that K_med*V ~ 1/(4pi) = 0.0795775, quoting "0.0793 and
   0.0794, agree to 0.1%". **CORRECTION, self-reported before testing:** the 2026-08-10 16:54
   entry records FOUR values, 0.0793 / 0.0822 / 0.0794 / 0.0798, constant to ~3%. I quoted the
   two nearest 1/(4pi) and dropped the one 3.3% away. Cherry-picking. The honest starting
@@ -1365,7 +1365,7 @@
   Both |n| < 0.07, needing 1. The geometry is scale-free EVEN WHERE THE COUPLING IS NOT.
   Therefore the dimensionlessness has nothing to do with classical scale invariance. The
   duller explanation is the correct one: **Ric_I contains no action, in any dimension.**
-  Recorded: the reframe was the user's, the prediction was sharp, and it failed cleanly.
+  Recorded: the reframe was the author's, the prediction was sharp, and it failed cleanly.
 
 - **THE STRONGEST NEGATIVE RESULT IN THE PROGRAMME.** 2+1D has a KNOWN answer,
   Karabali-Nair m = g^2 N/(2 pi), i.e. m a = 1.2732/beta for SU(2). Against it:
@@ -1838,7 +1838,7 @@ not assumed). Code `remeasure.py`. R1 and R2 both satisfied; R3 (retract) does n
   RETREAT FROM THE HORIZON, not the horizon's mass. Extracting gamma needs V -> infinity.
 - lambda_min(Delta) at +0.25 confirms the old observation that Delta's low edge is
   cutoff-scaled (unlike Ric_min, which is a trace and flat). Consistent picture.
-- STATUS: the user's one-liner ("scale lives at the edge, not in the shape") is now
+- STATUS: the author's one-liner ("scale lives at the edge, not in the shape") is now
   supported by three independent measurements: blindness (r ~ 0.01), sector difference
   (3.3 sigma), and the day's four metric nulls it retro-derives. What it does NOT yet
   give: a number. That requires the horizon condition at large volume (GZ programme).
@@ -1922,7 +1922,7 @@ not assumed). Code `remeasure.py`. R1 and R2 both satisfied; R3 (retract) does n
         ell~3.3    0.0712+-0.0072 vs 0.1304+-0.0156              3.4 sigma
         repeat     0.1957 vs 0.1870                              0.24 sigma
   The repeat set proves the error bars honest at n=24, so the disagreements are physics.
-  At fixed ell, s rises systematically with beta. No universal profile. The user's
+  At fixed ell, s rises systematically with beta. No universal profile. The author's
   "pure number" hypothesis is closed with adequate statistics. Scoreboard: 0 for 10.
 - **PART B — B1 FIRES. Dynamical horizon attraction at 4.8 sigma.**
         L         6         8         10        12
@@ -2308,7 +2308,7 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   crossover), so the fall here is carried by a semi-coherent mode — the two axes
   (coupling crossover, size fragmentation) are distinct, as the two-scale picture said.
 - Pipeline note: API push works (accelerator enums accepted: GPU_T4_X2 etc) but the v4
-  smoke still errored — the definitive fix was the user running the committed version
+  smoke still errored — the definitive fix was the author running the committed version
   manually on T4. results8.json fetched via API. For run 9+: verify device line in log
   before trusting any API-selected accelerator.
 
@@ -2331,7 +2331,7 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   (2.6: 0.87 flat to ell=6). The discovery of run 7 upgrades from a line at fixed ell to a
   sloped phase boundary. This is the piece to keep from run 9.
 - Ops note: API-pushed v3 died on P100 + a py3.12/torch-2.1.2 wheel mismatch in my guard
-  (my bug, logged); the user's manual T4 session delivered results9.json via signed URL.
+  (my bug, logged); the author's manual T4 session delivered results9.json via signed URL.
   Guard needs a py3.12-compatible Pascal torch pin if the API path is ever revived.
 
 ## 2026-08-17 22:40 — QUANT PASS: portrait fit KILLS conjecture #13 (two-coordinate pull
@@ -2393,8 +2393,7 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   non-spectral coherence observable f3, conditional independence r⊥(β,L)|f_IR,
   regression a(f_IR) with units. Falsifiers F1–F3 fixed. "Law" language is
   suspended until run 11 passes all three legs.
-- Both repos and publication paused: GitHub repos made private (Pages down);
-  Zenodo withdrawal is user-side via support request.
+- Publication paused while the review response was prepared; restored with v1.1.0.
 
 ## 2026-08-18 18:39 — RUN 11 VERDICT: Leg 1 PASS, Leg 3 PASS, Leg 2 FAIL — "law" not earned
 - Both parts complete (Kaggle P100, ~1.5 h each; gates passed). 12 blind ensembles,
@@ -2433,8 +2432,7 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   OFF. If F4 fires, the coherence gate is permanently spectral in this programme.
 - Six ensembles (2 OFF, 4 ON), blind P1 predictions from the run-11-validated
   frozen curve logged in-file before measurement. Pushed to Kaggle
-  (orbitspace-run12-mass); outreach draft file deleted at user request (never
-  entered the repo).
+  (orbitspace-run12-mass).
 
 ## 2026-08-18 21:09 — Q4/P5 registered mid-flight (data unseen)
 - User hypothesis: mass = F(distance-from-horizon, separation) = m^2(p^2, lambda).
@@ -2454,3 +2452,11 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   the blind per-configuration laws; RGZ literature (arXiv:1111.2327, 1002.2374)
   cited; gauge-dependence stated. Zenodo archiving of Part II pending the
   owner's GitHub-integration toggle.
+
+## 2026-08-20 13:23 — Privacy redaction pass (disclosed)
+- A privacy audit of all markdown files in both repositories replaced the
+  ledger shorthand "the user" with "the author" (8 instances) and removed two
+  lines describing private deliberations (a temporarily-private repository
+  state during the review response, and a deleted internal draft). No
+  scientific content, number, date, or verdict was altered. Earlier archived
+  releases retain the pre-redaction text; this entry discloses the change.
