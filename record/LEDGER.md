@@ -2474,3 +2474,12 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   deep-coherence end, and the 0.60-0.75 band still fits at 0.4 sigma.
 - No replacement curve is fitted here; a peaked form must be frozen and
   blind-tested before entering either record (Part II RUN21_SPEC).
+
+## 2026-08-20 17:38 — Audit of the 17:03 correction (Part II)
+- The correction entered at 17:03 was itself overstated and has been revised in
+  Part II. Audited status: the plateau value -0.51..-0.53 is WITHDRAWN (a blind
+  prediction failed by +4.41 sigma at n=256), but no replacement shape is
+  established — the other five deep-coherence points give 1.6 sigma, and every
+  measured point with f_IR > 0.85 is at beta = 2.6, making "coherence decline"
+  degenerate with a coupling effect. 41 of 42 blind points remain consistent
+  (p = 0.34). The README notice is revised accordingly.
