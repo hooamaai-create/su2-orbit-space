@@ -2453,7 +2453,7 @@ Goal (user, 2026-08-15): fix every fixable failure from the self-critique; loop 
   cited; gauge-dependence stated. Zenodo archiving of Part II pending the
   owner's GitHub-integration toggle.
 
-## 2026-08-20 13:23 — Privacy redaction pass (disclosed)
+## 2026-08-20 13:34 — Privacy redaction pass (disclosed)
 - A privacy audit of all markdown files in both repositories replaced the
   ledger shorthand "the user" with "the author" (8 instances) and removed two
   lines describing private deliberations (a temporarily-private repository
