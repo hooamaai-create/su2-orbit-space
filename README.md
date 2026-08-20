@@ -38,7 +38,9 @@ verified by pre-registered out-of-sample predictions.
    > the out-of-sample predictions below are unaffected; only the plateau
    > claim is retracted. See
    > [Part II](https://github.com/hooamaai-create/su2-orbit-space-ii) ledger,
-   > entry 2026-08-20. Verified twice over: run 10 predicted, in advance, that the
+   > entry 2026-08-20.
+
+   Verified twice over: run 10 predicted, in advance, that the
    correlation — strong at `(β, L) = (2.4, 10)` — would **vanish at `(2.4, 16)`**
    (`f_IR` predicted 0.444, measured 0.443(16); `r` measured +0.02); run 11 then
    tested the **curve's shape blind** — twelve ensembles spanning `f_IR = 0.31–0.91`
