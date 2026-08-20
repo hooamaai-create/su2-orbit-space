@@ -25,5 +25,12 @@
     "gluon propagator",
     "reproducible research",
     "pre-registration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22025317",
+      "relation": "isContinuedBy",
+      "scheme": "doi"
+    }
   ]
 }

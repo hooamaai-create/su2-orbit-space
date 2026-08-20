@@ -8,7 +8,7 @@ including a per-configuration coupling law verified by a pre-registered out-of-s
 prediction.
 
 **Part II** (runs 12–19: the boundary half — horizon dynamics, blind per-configuration laws, the refined-GZ scale and its unresolved continuum status):
-[github.com/hooamaai-create/su2-orbit-space-ii](https://github.com/hooamaai-create/su2-orbit-space-ii)
+[github.com/hooamaai-create/su2-orbit-space-ii](https://github.com/hooamaai-create/su2-orbit-space-ii) · [doi:10.5281/zenodo.22025317](https://doi.org/10.5281/zenodo.22025317)
 
 **Paper:** [`paper/main.tex`](paper/main.tex) · **Reading guide to the record:**
 [`record/GUIDE.md`](record/GUIDE.md)
